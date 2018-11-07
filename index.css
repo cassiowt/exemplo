@@ -5,6 +5,14 @@
     color: #143464;
 }
 
+.boxc{
+    border-style: solid;
+    box-shadow: #641710;
+    solid-opacity: 0.8;
+    color: #641d19;
+}
+
+
 body {
     font-family: Verdana,sans-serif;
     font-size: 0.9em;
@@ -35,4 +43,9 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 5px;
+}
+
+.subTitle{
+    color: brown;
+    font-size: larger;
 }
