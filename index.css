@@ -64,9 +64,6 @@ video{
     height: 20px;
 }*/
 
-
-
-
 progress[value]::-moz-progress-bar {
     background-image:
             -moz-linear-gradient(
@@ -99,23 +96,32 @@ progress[value]::-moz-progress-bar {
     color: red;
     alignment: center;
 }
+
+.valor{
+    font-family: "Courier New";
+    alignment: right;
+}
 .lista{
-    margin: 10%;
+    width: 80%;
+    margin: 2%;
+    padding: 2%;
     background-color: #c9e8ff;
     color: #18640c;
 }
 
 table{
+    width: 95%;
+    margin: 2%;
     border: 0.5px;
-    background-color: antiquewhite;
-    margin: 5%;
+    background-color: #faf4f7;
+
 }
+
 table caption{
-    alignment: left;
+    width: 100%;
     font-size: x-large;
     font-style: italic;
     margin-bottom: 2%;
-
 }
 
 .card {
@@ -132,4 +138,28 @@ table caption{
 /* Add some padding inside the card container */
 .container {
     padding: 2px 16px;
+}
+.formulario{
+    width: 100%;
+}
+.dadosAnimal{
+    width: 80%;
+    border-right: 5px;
+    border-left-style: solid;
+    border-color: #641710;
+    padding: 2%;
+    margin: 5%;
+}
+
+.numero{
+    width: 50px;
+}
+
+.cep{
+    width: 70px;
+}
+
+.botaoes{
+    width: 80%;
+    float: right;
 }
