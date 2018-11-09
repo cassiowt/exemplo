@@ -1,3 +1,18 @@
+.formCadastro{
+    width: 80%;
+    margin: 4%;
+}
+
+.tituloForm{
+    color: #132e64;
+}
+
+.subTituloForm{
+    color: #0099cc;
+    font-size: small;
+    font-style: italic;
+}
+
 .box{
     border-style: solid;
     box-shadow: #132e64;
