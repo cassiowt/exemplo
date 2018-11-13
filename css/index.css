@@ -304,7 +304,7 @@ tr:nth-child(odd) {
     bottom: 0;
 }
 
-.site-info::after {
+.site-info:after {
     content: "2011 Acme United. All rights reserved";
 }
 
@@ -313,7 +313,6 @@ botoes*/
 
 .botaoes {
     margin-top: 2%;
-
     text-align: center
 }
 .myButton {
