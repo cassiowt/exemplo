@@ -1,0 +1,23 @@
+body{
+    font-family: "Verdana", Times, serif;
+}
+
+
+.box-img {
+    width: 30%;
+    height: 30%;
+    padding: 5%;
+    margin: 5%;
+    display: block;
+
+/*    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;*/
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box-img:hover {
+
+/*    -webkit-transform: rotate(180deg);*/
+    transform: rotate(360deg);
+     opacity: 0.5;
+
+}
