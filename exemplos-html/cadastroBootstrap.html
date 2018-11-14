@@ -23,101 +23,106 @@
     <title>Cadastro Animal</title>
 </head>
 <body>
-<div class="container-fluid">
-    <form id="_FormContactInfo">
-        <div class="row">
-            <div class="col-sm">
-                <div class="input-group input-group-sm mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="label-nome">Nome:</span>
+<div class="jumbotron jumbotron-fluid">
+    <div class="container-fluid rounded-top border-top-2 mx-auto" style="width: 50%;">
+        <form id="_FormContactInfo">
+            <h1  class="display-4">Cadastro Animal</h1>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="label-nome">Nome:</span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Sizing example input"
+                               id="_Nome" aria-describedby="inputGroup-sizing-sm" placeholder="Rex">
                     </div>
-                    <input type="text" class="form-control" aria-label="Sizing example input"
-                           id="_Nome" aria-describedby="inputGroup-sizing-sm" placeholder="Rex">
+                </div>
+                <div class="col-sm">
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="label-senha">senha:</span>
+                        </div>
+                        <input type="password" class="form-control" aria-label="Sizing example input"
+                               id="_Senha" aria-describedby="inputGroup-sizing-sm">
+                    </div>
                 </div>
             </div>
-            <div class="col-sm">
-                <div class="input-group input-group-sm mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="label-senha">senha:</span>
-                    </div>
-                    <input type="password" class="form-control" aria-label="Sizing example input"
-                           id="_Senha" aria-describedby="inputGroup-sizing-sm">
+
+
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="label-favorito">Qual seu animal favorito?:</span>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" value="Cat" name="Gato">Gato
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" value="Dog" name="Cachorro">Cachorro
+                    </label>
+                </div>
+                <div class="form-check disabled">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" value="Bird" name="Passarinho">Passarinho
+                    </label>
                 </div>
             </div>
-        </div>
 
-
-
-
-        <div class="input-group input-group-sm mb-3">
-            <div class="input-group-prepend">
-                <span class="input-group-text" id="label-favorito">Qual seu animal favorito?:</span>
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="label-data">Data:</span>
+                </div>
+                <input type="date" class="form-control" aria-label="Sizing example input"
+                       id="_Data" aria-describedby="inputGroup-sizing-sm">
             </div>
-            <div class="form-check">
-                <label class="form-check-label">
-                    <input type="radio" class="form-check-input" value="Cat" name="Gato">Gato
-                </label>
-            </div>
-            <div class="form-check">
-                <label class="form-check-label">
-                    <input type="radio" class="form-check-input" value="Dog" name="Cachorro">Cachorro
-                </label>
-            </div>
-            <div class="form-check disabled">
-                <label class="form-check-label">
-                    <input type="radio" class="form-check-input" value="Bird" name="Passarinho">Passarinho
-                </label>
-            </div>
-        </div>
 
-        <div class="input-group input-group-sm mb-3">
-            <div class="input-group-prepend">
-                <span class="input-group-text" id="label-data">Data:</span>
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="label-endereco">Endereco:</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Sizing example input"
+                       id="_Endereco" aria-describedby="inputGroup-sizing-sm" placeholder="digite sua rua">
+                <input type="number" class="form-control" aria-label="Sizing example input"
+                       id="_Numero" aria-describedby="inputGroup-sizing-sm" placeholder="100">
             </div>
-            <input type="date" class="form-control" aria-label="Sizing example input"
-                   id="_Data" aria-describedby="inputGroup-sizing-sm">
-        </div>
 
-        <div class="input-group input-group-sm mb-3">
-            <div class="input-group-prepend">
-                <span class="input-group-text" id="label-endereco">Endereco:</span>
+            <div class="form-group">
+                <label for="formControlRange"> Satisfação do Atendimento:</label>
+                <input type="range" class="form-control-range" id="formControlRange" min="5" max="100" step="5"/>
             </div>
-            <input type="text" class="form-control" aria-label="Sizing example input"
-                   id="_Endereco" aria-describedby="inputGroup-sizing-sm" placeholder="digite sua rua">
-            <input type="number" class="form-control" aria-label="Sizing example input"
-                   id="_Numero" aria-describedby="inputGroup-sizing-sm" placeholder="100">
-        </div>
 
-        <div class="form-group">
-            <label for="formControlRange"> Satisfação do Atendimento:</label>
-            <input type="range" class="form-control-range" id="formControlRange" min="5" max="100" step="5"/>
-        </div>
-
-        <div class="input-group mb-3">
-            <div class="input-group-prepend">
-                <label class="input-group-text" for="inputGroupSelect01">Esécie</label>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <label class="input-group-text" for="inputGroupSelect01">Esécie</label>
+                </div>
+                <select class="custom-select" id="inputGroupSelect01">
+                    <option selected>Selecione ...</option>
+                    <option value="1">Cachorros</option>
+                    <option value="2">Gatos</option>
+                    <option value="3">Passaros</option>
+                    <option value="4">Roedores</option>
+                    <option value="5">Animais Grande Porte</option>
+                </select>
             </div>
-            <select class="custom-select" id="inputGroupSelect01">
-                <option selected>Selecione ...</option>
-                <option value="1">Cachorros</option>
-                <option value="2">Gatos</option>
-                <option value="3">Passaros</option>
-                <option value="4">Roedores</option>
-                <option value="5">Animais Grande Porte</option>
-            </select>
-        </div>
 
-        <div class="input-group input-group-sm mb-3">
-            <div class="input-group-prepend">
-                <span class="input-group-text" id="label-desc">Descrição Animal:</span>
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="label-desc">Descrição Animal:</span>
+                </div>
+                <textarea class="form-control" rows="5" aria-label="Sizing example input"
+                          id="_Desc" aria-describedby="inputGroup-sizing-sm"></textarea>
             </div>
-            <textarea class="form-control" rows="5" aria-label="Sizing example input"
-                      id="_Desc" aria-describedby="inputGroup-sizing-sm"></textarea>
-        </div>
 
-        <button type="button" class="btn btn-primary">Enviar</button>
-        <button type="reset" class="btn btn-danger">Cancelar</button>
-    </form>
+            <div class="row mx-auto" style="width: 40%;">
+                <col-sm-12>
+                    <button type="button" class="btn btn-primary">Enviar</button>
+                    <button type="reset" class="btn btn-danger">Cancelar</button>
+                </col-sm-12>
+            </div>
+  </form>
+    </div>
 </div>
 </body>
 </html>

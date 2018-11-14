@@ -15,15 +15,16 @@ function exemplo(){
 
 
 }
-/*var exibeMensagem = function() {
+
+var exibeMensagem = function() {
     mensagem = "MANTRA";
     console.log(mensagem);
     var mensagem;
-}*/
+}
 
 
-/*
-var exibeMensagem = function() {
+
+var exibeMensagem1 = function() {
     var mensagemForaDoIf = "MANTRA";
     if(mensagemForaDoIf == "MANTRA") {
         var mensagemDentroDoIf = "JavaScript";
@@ -31,10 +32,8 @@ var exibeMensagem = function() {
     console.log(mensagemForaDoIf); // MATERA
     console.log(mensagemDentroDoIf); // JavaScript
 }
-*/
 
-
-var exibeMensagem = function() {
+var exibeMensagem2 = function() {
     var mensagemForaDoIf = "MANTRA";
     if(mensagemForaDoIf == "MANTRA") {
         let mensagemDentroDoIf  = "JavaScript";
@@ -45,6 +44,7 @@ var exibeMensagem = function() {
 
     // apenas mensagemForaDoIf existe nesse ponto
 }
+
 function salva() {
     alert("Animal Salvo")
 }
