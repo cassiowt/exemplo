@@ -6,12 +6,28 @@
 *
 */
 
+
+
 function exemplo(){
-    const NOME = "DESSA FUÇÃO"
-    let parcela1 = 23;
-    let parcela2 = 33;
-    let soma = parcela1 + parcela2;
-    console.log(soma);
+    var  DiaSemana = new Date( );
+    DiaSemana = 6;
+
+    switch (DiaSemana) {
+        case 0: alert(" Segunda-feira ") ;
+            break ;
+        case 2: alert(" Terça-feira ") ;
+            break ;
+        case 3: alert(" Quarta-feira ") ;
+            break ;
+        case 4: alert(" Quinta-feira ") ;
+            break;
+        case 5: alert(" Sexta-feira ");
+            break ;
+        case 6:
+        case 7: alert(" Fim de semana ");
+            break ;
+        default: alert(" Dia inexistente ");
+    }
 
 
 }
