@@ -15,7 +15,6 @@ function foo() {
 };
 
 function media() {
-
     var notas = new Array( 1, 9, 9, 9, 9, 9, 9, 9, 9, 10)
     var media = 0;
     for (var key in notas) {
@@ -23,11 +22,20 @@ function media() {
          document.write("<h3> a nota do aluno " +   numeroAluno  + " é " + notas[key] + "</h3>")
          media += notas[key];
     }
-
     document.write("<h2> A média dos alunos é " + media / notas.length + "</h2>")
-
 };
 
+
+function mediaSimples() {
+    var valor1 = document.getElementById("valor-um").value;
+    var valor2 = document.getElementById("valor-dois").value;
+
+    var media = (parseInt(valor1) + parseInt(valor2))/2;
+
+    document.getElementById("resultado").innerText = media;
+
+
+}
 
 
 function exemplo(){
