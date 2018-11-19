@@ -5,7 +5,14 @@
 * Exemplo de comentario de várias linhas
 *
 */
-
+function foo() {
+    var _sexo = "M";
+    if (_sexo == "M") {
+        alert("Masculino")
+    } else {
+        alert("Feminino")
+    }
+};
 
 
 function exemplo(){
