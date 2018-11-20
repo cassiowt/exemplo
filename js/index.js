@@ -4,6 +4,18 @@
 *
 */
 
+function carregaImagens() {
+    var imagens = new Array("img1","img2","img3","img4","img5","img6");
+
+    for (key in imagens) {
+        var numero = parseInt(key) + parseInt(1);
+        var ele = "img" + numero;
+        document.getElementById(ele).src = "../images/"+imagens[key]+".jpg";
+        document.getElementById(ele).style.width = "100px";
+        document.getElementById(ele).style.height = "100px";
+    }
+}
+
 function ExibirForm() {
 
     var objDiv = document.getElementById('formlogin').style.visibility;
@@ -12,6 +24,8 @@ function ExibirForm() {
         document.getElementById('formlogin').style.visibility = 'hidden';
     else
         document.getElementById('formlogin').style.visibility = 'visible';
+
+
 }
 
 function Destacar(campo) {
@@ -29,7 +43,16 @@ function quebra() {
     document.getElementById("exemplo").innerHTML = "O TERCEIRO  elemento presente no _VetOUT: " + _VetOUT[2];
 
 }
+function exemploDatas() {
+    var data = new Date();
+    var dataCompleta = data.toLocaleString();
 
+    document.getElementById("footer").innerHTML = dataCompleta;
+
+    document.getElementById("footer").style.backgroundColor = "#000000"
+    document.getElementById("footer").style.color = "#fafafa"
+
+}
 
 function foo() {
     var _sexo = "M";
