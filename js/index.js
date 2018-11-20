@@ -8,7 +8,7 @@ function CriarParagrafo() {
     var objNovoParagrafo = document.createElement('p');
     var strTexto = document.createTextNode('Informação do parágrafo.');
     objNovoParagrafo.appendChild(strTexto);
-    document.getElementById('pindice').appendChild(objNovoParagrafo).;
+    document.getElementById('pindice').appendChild(objNovoParagrafo);
 }
 
 function RemoverParagrafo(p) {
