@@ -4,6 +4,19 @@
 *
 */
 
+function CriarParagrafo() {
+    var objNovoParagrafo = document.createElement('p');
+    var strTexto = document.createTextNode('Informação do parágrafo.');
+    objNovoParagrafo.appendChild(strTexto);
+    document.getElementById('pindice').appendChild(objNovoParagrafo).;
+}
+
+function RemoverParagrafo(p) {
+    var objParagrafo = document.getElementsByName(p);
+    objParagrafo.removeChild(strTexto);
+
+}
+
 function carregaImagens() {
     var imagens = new Array("img1","img2","img3","img4","img5","img6");
 
