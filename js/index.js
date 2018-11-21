@@ -3,6 +3,16 @@
 * Exemplo de comentario de várias linhas
 *
 */
+function trocarImagens(ele) {
+    console.log(ele);
+    var novaImage = document.getElementsByName("image")
+    var novoTitulo = document.getElementsByTagName("h2")
+
+    for (key in novaImage) {
+       novaImage[key].src = "https://i0.wp.com/www.amplino.org/wp-content/uploads/2018/08/imagens-de-gatos.jpg?resize=640%2C461&ssl=1";
+       novoTitulo[key].innerHTML = "Gatos"
+    };
+}
 
 function CriarParagrafo() {
     var objNovoParagrafo = document.createElement('p');
@@ -10,6 +20,15 @@ function CriarParagrafo() {
     objNovoParagrafo.appendChild(strTexto);
     document.getElementById('pindice').appendChild(objNovoParagrafo);
 }
+
+function Inserir(objeto) {
+    var objNovoParagrafo = document.createElement('p');
+    var strTexto = document.createTextNode('Conteudo criado!');
+    objNovoParagrafo.appendChild(strTexto);
+    objeto.parentNode.insertBefore(objNovoParagrafo, objeto);
+    objNovoParagrafo.onclick = function () { this.parentNode.removeChild(this); };
+}
+
 
 function RemoverParagrafo(p) {
     var objParagrafo = document.getElementsByName(p);

@@ -20,20 +20,19 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
             integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
             crossorigin="anonymous"></script>
-    <title>Exemplo JS 5</title>
+    <title>Exercicio JS 01</title>
 </head>
 <body>
-<h1>Teste</h1>
-<div id="pagina">
-    <h3>Exemplo</h3>
-    <p id="pindice" onclick="CriarParagrafo();">Inserir conteúdo a partir deste parágrafo</p>
-</div>
-
-<h1>Teste2</h1>
-<div id="pagina2">
-    <h3>Exemplo</h3>
-    <p id="p1" onclick="Inserir(this);">Adicionar conteudo antes deste elemento...</p>
-    <p id="p2" onclick="Inserir(this);">ou deste.</p>
+<div class="container">
+    <form>
+        <div class="form-group">
+            <label for=""></label>
+            <input type="text"
+                   class="form-control" name="campo" id="campo" aria-describedby="helpId" placeholder="">
+            <small id="helpId" class="form-text text-muted">digite um texto</small>
+        </div>
+        <h1>Troca<span class="label label-default">Texto</span></h1>
+    </form>
 </div>
 </body>
 </html>
