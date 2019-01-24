@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo Form CSS</title>
+    <link rel="stylesheet" href="../css/exemploFormCSS.css">
+</head>
+<body>
+    <div class="container" >
+        <form id="_cadatro" class="">
+            <h3>Cadastro Exemplo CSS</h3>
+            <div class="row">
+                <div class="column column-4 label"><label for="_nome">Nome:</label></div>
+                <div class="column column-8 input"><input class="" id="_nome" type="text"></div>
+            </div>
+            <div class="row">
+                <div class="column column-2 label"><label for="_end">Endereço:</label></div>
+                <div class="column column-6 input"><input class="" id="_end" type="text"></div>
+                <div class="column column-2 label"><label for="_num">Numero:</label></div>
+                <div class="column column-2 input"><input class="valor" id="_num" type="number"></div>
+            </div>
+
+            <div class="row">
+                <div class="column column-6 label"><label for="_cep">CEP:</label></div>
+                <div class="column column-6 input"><input class="cep" id="_cep" type="text" required pattern="\d{5}-\d{3}"></div>
+            </div>
+            <div class="row">
+                <div class="column column-6"></div>
+                <div class="column column-6"></div>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
