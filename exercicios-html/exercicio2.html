@@ -10,14 +10,14 @@
 </head>
 <body>
 <div class="formCadastro">
-    <form id="_forExercicio2" method="post" action="">
+    <form id="_forExercicio2" method="post" action="filme.html">
         <h1 class="tituloForm">A Simple Form</h1>
         <h2 class="subTituloForm">Form Fudamentals</h2>
 
         <fieldset>
             <legend>Customer Info</legend>
             <label for="_Name">Name:</label>
-            <input id="_Name" type="text" placeholder="Enter your name"><br/>
+            <input id="_Name" required="required" type="text" placeholder="Enter your name"><br/>
             <label for="_Phone">Telephone:</label>
             <input id="_Phone" type="text" required pattern="\d{1}-?\d{3}-?\d{3}-?\d{4}" placeholder="Parttern: 1-234-567-8910"><br/>
             <label for="_Email">Email Address:</label>
@@ -28,7 +28,7 @@
             <legend>Books</legend>
             <input id="_Book"/>
             <label for="_NumberBooks">Quanttity (Maximum 5):</label>
-            <input id="_NumberBooks" type="number">
+            <input id="_NumberBooks" type="number" min="1" max="5">
         </fieldset>
 
         <input id="_Submit" type="submit" value="Submit">
