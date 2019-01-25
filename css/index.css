@@ -1,8 +1,13 @@
+.tituloForm{
+    font-size: medium;
+    padding: -5px;
 
+}
 .subTituloForm {
     color: #0099cc;
     font-size: small;
     font-style: italic;
+
 }
 
 .box {
@@ -28,6 +33,7 @@
 body {
     font-family: Verdana, sans-serif;
     font-size: 0.9em;
+    background-color: #ffffff;
 }
 
 header, footer {
@@ -107,9 +113,17 @@ progress[value]::-moz-progress-bar {
 
 .valor {
     font-family: "Courier New";
-    alignment: right;
+    text-align: right;
+    width: 15%;
 }
 
+.texto{
+    width: 100%;
+}
+
+.etiqueta {
+    float: right;
+}
 .lista {
     width: 80%;
     margin: 2%;
@@ -184,14 +198,14 @@ tr:nth-child(odd) {
     left: 0px;
     width: 800px;
     margin: 4%;
-    margin: auto;
+
     box-shadow: 0px 0px 10px black;
-    padding: 20px;
+    padding: 30px;
     box-sizing: border-box;
 }
 
 .formCadastro input {
-    border-radius: 9px;
+    border-radius: 14px;
     height: 20px;
 }
 
@@ -272,14 +286,38 @@ tr:nth-child(odd) {
     float: left;
     height: 41px;
 }
-
-.input input {
+input[type="text"]
+{
     width: 100%;
     height: 34px;
     padding-left: 5px;
     box-sizing: border-box;
 
-    border-radius:3px;
+    border-radius:10px;
+    border:1px solid #124d77;
+    display:inline-block;
+
+}
+
+input[type="email"]
+{
+    width: 100%;
+    height: 34px;
+    padding-left: 5px;
+    box-sizing: border-box;
+
+    border-radius:10px;
+    border:1px solid #124d77;
+    display:inline-block;
+
+}input[type="number"]
+{
+    width: 100%;
+    height: 34px;
+    padding-left: 5px;
+    box-sizing: border-box;
+
+    border-radius:10px;
     border:1px solid #124d77;
     display:inline-block;
 

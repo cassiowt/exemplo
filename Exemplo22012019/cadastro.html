@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro Exemplo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="cadastroPainel" class="painel">
+    <fieldset>
+        <legend><h1>Cadastro de Code</h1></legend>
+        <form id="cadastro" method="post">
+            Nome: <input type="text"  placeholder="Enter the code name"><br/>
+            Autor: <input type="text"><br/>
+            Email Autor: <input type="email"><br/>
+            Linguagem:<br/>
+            <input type="radio" name="ling" value="java">Java<br/>
+            <input type="radio" name="ling" value="php">Php<br/>
+            <input type="radio" name="ling" value="csharp">C#<br/>
+            <input type="radio" name="ling" value="node">Node.js<br/>
+            Data Criação: <input type="datetime-local"> <br/>
+            Descrição: <textarea></textarea> <br/>
+            <div id="btn" class="botoes">
+                <input type="submit" value="Cadastrar">
+                <input type="reset" value="Cancelar">
+            </div>
+        </form>
+    </fieldset>
+</div>
+</body>
+</html>

@@ -9,29 +9,55 @@
     <title>Exercicio 2</title>
 </head>
 <body>
-<div class="formCadastro">
-    <form id="_forExercicio2" method="post" action="">
+<div class="container">
+    <form id="_forExercicio2" method="post" action="filme.html">
         <h1 class="tituloForm">A Simple Form</h1>
         <h2 class="subTituloForm">Form Fudamentals</h2>
 
         <fieldset>
             <legend>Customer Info</legend>
-            <label for="_Name">Name:</label>
-            <input id="_Name" type="text" placeholder="Enter your name"><br/>
-            <label for="_Phone">Telephone:</label>
-            <input id="_Phone" type="text" required pattern="\d{1}-?\d{3}-?\d{3}-?\d{4}" placeholder="Parttern: 1-234-567-8910"><br/>
-            <label for="_Email">Email Address:</label>
-            <input id="_Email" type="email" placeholder="Enter your e-mail address"><br/>
+            <div class="row">
+                <div class="column column-3">
+                    <label class="etiqueta" for="_Name">Name:</label>
+                </div>
+                <div class="column column-9">
+                    <input id="_Name" class="texto" required="required" type="text" placeholder="Enter your name"><br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column column-3">
+                    <label class="etiqueta" for="_Phone">Telephone:</label>
+                </div>
+                <div class="column column-9">
+                    <input id="_Phone" class="texto" type="text" required pattern="\d{1}-?\d{3}-?\d{3}-?\d{4}" placeholder="Parttern: 1-234-567-8910"><br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column column-3">
+                    <label class="etiqueta" for="_Email">Email Address:</label>
+                </div>
+                <div class="column column-9">
+                    <input id="_Email" class="texto" type="email" placeholder="Enter your e-mail address"><br/>
+                </div>
+            </div>
         </fieldset>
 
         <fieldset>
             <legend>Books</legend>
-            <input id="_Book"/>
-            <label for="_NumberBooks">Quanttity (Maximum 5):</label>
-            <input id="_NumberBooks" type="number">
+            <div class="row">
+                <div class="column column-5">
+                    <input class="texto" type="text" id="_Book"/>
+                </div>
+                <div class="column column-4">
+                    <label class="etiqueta" for="_NumberBooks">Quanttity (Maximum 5):</label>
+                </div>
+                <div class="column column-3">
+                    <input id="_NumberBooks" class="valor" type="number" min="1" max="5">
+                </div>
+            </div>
         </fieldset>
 
-        <input id="_Submit" type="submit" value="Submit">
+        <input id="_Submit" class="myButton" type="submit" value="Submit">
         <br/>
        <span><i class="far fa-copyright"></i>2011 Acme United. All rights reserved</span>
     </form>

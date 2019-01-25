@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sugestao Filme</title>
+    <link rel="stylesheet" href="../css/index.css">
+
+</head>
+<body>
+<div id="container">
+    <fieldset>
+        <legend>Filme</legend>
+        <h3>Login efetuado com sucesso</h3>
+        <div class="card">
+        <form id="filmeForm" method="post" action="">
+            <h4>Escolha o Filme</h4>
+            <label for="_Nome">Nome</label>
+            <input id="_Nome" type="text"><br/>
+            <label for="_Genero">Genero</label>
+            <select id="_Genero" required="required">
+                <option value="">Selecione um genero</option>
+                <option value="romance">Romance</option>
+                <option value="acao">Ação</option>
+                <option value="comedia">Comédia</option>
+                <option value="terror">Terror</option>
+                <option value="suspence">Suspence</option>
+            </select><br/>
+            <label for="_Data">Ano</label>
+            <input id="_Data" type="number" min="1900" max="2019"><br>
+            <input type="submit" value="Enviar"><br/>
+            <label for="_Email">Para: </label>
+            <input id="_Email" type="email"><br>
+        </form>
+        </div>
+    </fieldset>
+</div>
+</body>
+</html>

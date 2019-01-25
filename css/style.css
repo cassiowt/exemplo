@@ -3,11 +3,13 @@
 p {
     text-align: center;
     color: red;
+    font-family: Verdana;
 }
 
 #textoCentralizadoID {
     text-align: center;
     color: blueviolet;
+    font-family: Arial, sans-serif;
 }
 
 .textoCentralizadoCLass {
@@ -19,6 +21,7 @@ p {
 p.textoCentralizado {
     text-align: center;
     color: #ffb310;
+
 }
 
 li {
@@ -34,6 +37,12 @@ li[rel="livro"]:before {
     font-weight: bold;
 }
 
+li[rel="lixo"]:before {
+    content: "Não compre é um lixo: ";
+    color: #2129d3;
+    font-weight: unset;
+}
+
 
 li:after {
     color: #405cd3;
@@ -41,9 +50,14 @@ li:after {
 }
 li[rel="timao"]:after {
     content: " - jogador do Corinthians.";
+    color: #fafafa;
+    background-color: black;
+
 }
 li[rel="tricolor"]:after {
     content: " -  jogador do Fluminense";
+    color: #fafafa;
+    background-color: green;
 }
 
 section {
@@ -64,19 +78,31 @@ div:first-child {
     background-color: #900;
     margin-left: 0px;
 }
-/*
+
 div:last-child {
-    background-color: #006;
+    background-color: #efe910;
     margin-right: 0px;
-}*/
+}
 
 /*Exemplos CSS 2*/
 
 h1 {
-    counter-increment: numero;
+    counter-increment:nm;
 }
 h1::before {
-    content: "Captiulo " counter(numero);
+    content: "Captiulo " counter(nm);
+}
+
+p.contN {
+    font-size: 10px;
+    text-align: justify;
+    color: black;
+    counter-increment: n;
+}
+p.contN::before {
+    content: "Paragrafo: " counter(n);
+    color: #641d19;
+    font-size: 12px;
 }
 
 .divTest {
@@ -114,7 +140,7 @@ nav a {
     font-family: Arial, sans-serif;
     font-size: 16px;
     position: absolute;
-    top: 450px;
+    top: 750px;
     left: 20px;
     z-index: 1;
 }
@@ -126,6 +152,19 @@ nav a {
 }
 .divTest1#tres {
     background-color: #900;
+}
+
+.divTest1#quatro{
+    background-color: #ff6d9d;
+}
+.divTest1#cinco{
+    background-color: #29ff1c;
+}
+.divTest1#seis{
+    background-color: #78670e;
+}
+.divTest1#sete{
+    background-color: rgb(56, 107, 84);
 }
 .divTest1:target {
     z-index: 1000;
