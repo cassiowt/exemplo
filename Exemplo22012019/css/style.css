@@ -1,0 +1,39 @@
+body{
+    width: 800px;
+    background-color: #fafafa;
+}
+
+.input-group-text{
+ background-color: aqua;
+}
+.exp {
+    color: red;
+}
+
+td {
+    width: 120px;
+}
+
+.painel{
+    margin: 10%;
+    }
+
+.painel input {
+    width: 220px;
+}
+
+
+.botoes{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.cassio {
+    border-style: double;
+    border-left-style: dot-dash;
+    box-shadow: black;
+    text-align: center;
+    width: 50%;
+}
