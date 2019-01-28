@@ -144,10 +144,6 @@ table caption {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Add some padding inside the card container */
-.container {
-    padding: 2px 16px;
-}
 
 .formulario {
     width: 100%;
@@ -187,7 +183,7 @@ tr:nth-child(odd) {
     width: 800px;
     margin: 4%;
     margin: auto;
-    padding: 20px;
+    padding: 2px 16px;
 
 }
 
@@ -304,34 +300,31 @@ tr:nth-child(odd) {
 botoes*/
 
 .botaoes {
+    height: 40px;
+    border: #345aff dashed 3px;
     margin-top: 2%;
-
     text-align: center
+
 }
 .fundoHedear {
     width: 100%;
-    height: 16px;
-    padding: 2%;
+    height: 40px;
+    padding: 0px 15px 0px 15px;
     margin-bottom: fill;
-
-    -moz-box-shadow: inset 0px 1px 0px 0px #3c3f41;
-    -webkit-box-shadow: inset 0px 1px 0px 0px #3c3f41;
-    box-shadow: inset 0px 1px 0px 0px #3c3f41;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3c3f41), color-stop(1, #2b2b2b));
-    background: -moz-linear-gradient(top, #3c3f41 5%, #2b2b2b 100%);
-    background: -webkit-linear-gradient(top, #3c3f41 5%, #2b2b2b 100%);
-    background: -o-linear-gradient(top, #3c3f41 5%, #2b2b2b 100%);
-    background: -ms-linear-gradient(top, #3c3f41 5%, #2b2b2b 100%);
-    background: linear-gradient(to bottom, #3c3f41 5%, #2b2b2b 100%);
+    box-shadow: inset 0px 1px 0px 0px #b1b1b1;
+    background: linear-gradient(to bottom, rgba(177, 177, 177, 0.24) 5%, #2b2b2b 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7', GradientType=0);
     background-color: #3c3f41;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
     border-radius: 3px;
     border: 1px solid #2b2b2b;
     color: #ffffff;
     font-family: Arial;
     font-size: 13px;
+}
+
+.texto{
+    margin: 0px;
+    padding: 0px;
 }
 
 .texto-direita{
@@ -344,19 +337,32 @@ botoes*/
 
 .titulo {
     width: 100%;
+    height: 40px;
+
+    border: #513888 dashed 3px;
     background-color: #3d2964;
-    color: white;
+   color: white;
     border: 1px solid #2b2b2b;
     font-size: 24px;
     text-decoration-style: solid;
-    padding: 2%;
+
 }
 
 .content{
     width: 100%;
     height: 600px;
     padding: 2%;
+    border: #f2ff23 dashed 3px;
     background-color: #fafafa;
+}
+
+.menu {
+/*    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    padding: 0px 0px 0px 0px;
+    border-bottom: #2b2b2b dashed 1px;*/
+    border: red dashed 3px;
 }
 
 nav ol li {
@@ -387,6 +393,12 @@ a:active {
     color: #0000FF;
 }
 
+
+
+.tabela{
+    border: #1fff36 dashed 3px;
+    height: 400px;
+}
 
 .myButton:hover {
     background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));

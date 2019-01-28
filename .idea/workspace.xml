@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6293b926-5231-42c0-a66f-d48a55287c8c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios-CSS/exercicioCSS2.html" beforeDir="false" afterPath="$PROJECT_DIR$/exercicios-CSS/exercicioCSS2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios-html/exercicio2.html" beforeDir="false" afterPath="$PROJECT_DIR$/exercicios-html/exercicio2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/exemploHTML.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/exemploHTML.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/exerccioCSS3.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/exerccioCSS3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style3.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicios-CSS/exercicioCSS3.html" beforeDir="false" afterPath="$PROJECT_DIR$/exercicios-CSS/exercicioCSS3.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,7 +19,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exercicios-CSS/exercicioCSS3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/exerccioCSS3.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="392" column="1" lean-forward="true" selection-start-line="392" selection-start-column="1" selection-end-line="392" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -35,57 +57,51 @@
         <option value="$PROJECT_DIR$/exemplos-css/exemploCSS1.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/exemplos-css/exemploCSS3.html" />
-        <option value="$PROJECT_DIR$/css/style3.css" />
         <option value="$PROJECT_DIR$/css/style4.css" />
         <option value="$PROJECT_DIR$/exemplos-css/exemploCSS4.html" />
         <option value="$PROJECT_DIR$/exercicios-CSS/exercicioCSS2.html" />
         <option value="$PROJECT_DIR$/exercicios-html/exercicio2.html" />
         <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/css/style3.css" />
+        <option value="$PROJECT_DIR$/css/exerccioCSS3.css" />
+        <option value="$PROJECT_DIR$/exercicios-CSS/exercicioCSS3.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1340" />
-    <option name="height" value="688" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="983" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="exemplo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exemplo" type="462c0819:PsiDirectoryNode" />
+              <item name="exemploHTML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exemploHTML" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="exemplo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exemplo" type="462c0819:PsiDirectoryNode" />
+              <item name="exemploHTML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exemploHTML" type="462c0819:PsiDirectoryNode" />
               <item name="exercicios-CSS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exemplo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exemplo" type="462c0819:PsiDirectoryNode" />
-              <item name="exercicios-html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exemplo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exemplo" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -114,18 +130,27 @@
       <workItem from="1548411025456" duration="5726000" />
       <workItem from="1548421562212" duration="806000" />
       <workItem from="1548422487992" duration="14000" />
+      <workItem from="1548673193162" duration="1831000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6256000" />
+    <option name="totallyTimeSpent" value="8087000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="983" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15246637" />
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15201466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="FaTPlugin" />
+      <window_info anchor="bottom" id="SonarLint" />
+      <window_info anchor="bottom" id="FTP" />
+      <window_info anchor="bottom" id="RNConsole" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="SonarQube" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -137,6 +162,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.7794118" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Mongo Explorer" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Jenkins" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -160,16 +191,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/exerccioCSS3.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/exemplos-css/exemploCSS2.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercicios-CSS/exercicioCSS3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-495" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercicios-CSS/exercicioCSS4.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -197,6 +220,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="312" column="19" selection-start-line="312" selection-start-column="19" selection-end-line="312" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/exerccioCSS3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="392" column="1" lean-forward="true" selection-start-line="392" selection-start-column="1" selection-end-line="392" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercicios-CSS/exercicioCSS3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
         </state>
       </provider>
     </entry>
