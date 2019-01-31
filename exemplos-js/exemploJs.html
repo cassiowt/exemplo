@@ -27,6 +27,13 @@
     function mensagem() {
         alert("Botão Clicado")
     }
+
+
+    function myFunction() {
+        document.getElementById("demo").innerHTML="Troca de Paragrafo";
+    }
+
+
 </script>
 <div class="botaoes">
     <button type="button" class="btn btn-primary" onclick="mensagem()">Click AQUI</button>
@@ -52,6 +59,8 @@
     <div class="botaoes">
         <button type="button" class="btn btn-success btn-lg btn-block" onclick="soma()">SOMA</button>
     </div>
+
+    <div id="demo"></div>
 </form>
 </div>
 </body>

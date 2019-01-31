@@ -3,6 +3,7 @@
 * Exemplo de comentario de várias linhas
 *
 */
+
 function trocarImagens(ele) {
     console.log(ele);
     var novaImage = document.getElementsByName("image")
@@ -204,3 +205,66 @@ function soma() {
     alert(parseInt(numeroUm) + parseInt(numeroDois));
 }
 
+function montaArrys() {
+    var Animal = {especie: "Gato", idade: 10, apelido: "Jj"};
+    var Animal1 = {especie: "Cao", idade: 12, apelido: "Rex"};
+    var AnimaisVips = ["Byte", "Hantaro", "Pipa", "Boyw"];
+    var Animais = new Array();
+
+    Animais[0] = Animal;
+    Animais[1] = Animal1;
+    Animais[2] = AnimaisVips;
+
+
+    console.log(Animais);
+
+    var ultimoelemento = AnimaisVips.length - 1;
+    console.log(Animais[2][ultimoelemento])
+
+    AnimaisVips.push("Baby");
+
+    var ultimoelemento = AnimaisVips.length - 1;
+    console.log(Animais[2][ultimoelemento])
+
+    console.log(AnimaisVips.reverse())
+
+
+    var dataHoje = new Date();
+
+    console.log(dataHoje)
+    console.log(dataHoje.getDay())
+    console.log(dataHoje.getHours())
+    console.log(dataHoje.getUTCDate())
+    console.log(dataHoje.getMonth())
+    console.log(dataHoje.getFullYear())
+
+    /* for(a in Animais) {
+         for (propriedade in Animal)
+         alert(Animais[a][propriedade])
+     };*/
+}
+
+function Destacar(campo) {
+    campo.style.backgroundColor = 'rgb(255,255,0)';
+    campo.style.borderWidth = '5px';
+}
+function Restaurar(campo) {
+    campo.style.backgroundColor = 'rgb(255,255,255)';
+}
+
+
+function loadImagens() {
+    var texto = "";
+    var imagens = new Array();
+
+    imagens = ["../images/img1.jpg","../images/img2.jpg","../images/img3.jpg",
+        "../images/img4.jpg","../images/img5.jpg", "../images/img6.jpg"]
+
+
+    for (img in imagens){
+        texto = texto + "<img name='foto' id='" + img + "' width=\"50px\" src=\""+ imagens[img]  +"\"><br>"
+    }
+
+
+    document.getElementById("_imagens").innerHTML = texto;
+}

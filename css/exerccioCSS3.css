@@ -278,7 +278,7 @@ tr:nth-child(odd) {
 .rodape {
     margin-top: 5%;
     position: relative;
-    height: 300px;
+    height: 20px;
     width: 100%;
     background-color: white;
 }
@@ -396,7 +396,7 @@ a:active {
 
 
 .tabela{
-    border: #1fff36 dashed 3px;
+   /* border: #1fff36 dashed 3px;*/
     height: 400px;
 }
 
@@ -413,4 +413,22 @@ a:active {
 .myButton:active {
     position:relative;
     top:1px;
+}
+
+.novoBotao{
+    border: 19px inset #A41616;
+    border-radius: 30px 31px 30px 30px;
+}
+
+table th {
+    border: 10px solid #ffffff;
+}
+table tr {
+    border: 10px solid #ffffff;
+}
+table td {
+    border: 10px solid #ffffff;
+}
+.table-dark td, .table-dark th, .table-dark thead th {
+    border-color: white;
 }
