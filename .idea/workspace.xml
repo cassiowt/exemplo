@@ -46,7 +46,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
+            <state relative-caret-position="28">
               <caret line="265" selection-start-line="265" selection-end-line="265" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -189,18 +189,17 @@
       <workItem from="1548757042173" duration="9237000" />
       <workItem from="1548842889359" duration="1503000" />
       <workItem from="1548844746556" duration="8577000" />
-      <workItem from="1548930822717" duration="5776000" />
+      <workItem from="1548930822717" duration="6108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39895000" />
+    <option name="totallyTimeSpent" value="40227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.022421524" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.022421524" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -213,7 +212,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.7794118" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.7794118" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="FaTPlugin" order="11" />
       <window_info anchor="bottom" id="SonarLint" order="12" />
@@ -438,7 +437,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
+        <state relative-caret-position="28">
           <caret line="265" selection-start-line="265" selection-end-line="265" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
