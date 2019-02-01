@@ -1,0 +1,11 @@
+body{
+    margin: 2%;
+}
+
+.destaque {
+    border-style: double;
+    border-left-style: dot-dash;
+    box-shadow: #ff6d9d;
+    text-align: center;
+    width: 50%;
+}

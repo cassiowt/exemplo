@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Sugestao Filme</title>
     <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/index.js"></script>
 
 </head>
 <body>
@@ -12,10 +13,10 @@
         <legend>Filme</legend>
         <h3>Login efetuado com sucesso</h3>
         <div class="card">
-        <form id="filmeForm" method="post" action="">
+        <form id="filmeForm" >
             <h4>Escolha o Filme</h4>
             <label for="_Nome">Nome</label>
-            <input id="_Nome" type="text"><br/>
+            <input id="_Nome" type="text" required><br/>
             <label for="_Genero">Genero</label>
             <select id="_Genero" required="required">
                 <option value="">Selecione um genero</option>
@@ -25,12 +26,18 @@
                 <option value="terror">Terror</option>
                 <option value="suspence">Suspence</option>
             </select><br/>
-            <label for="_Data">Ano</label>
-            <input id="_Data" type="number" min="1900" max="2019"><br>
-            <input type="submit" value="Enviar"><br/>
+            <label for="_Data" required>Ano</label>
+            <input id="_Data" type="number" min="1900" max="2019" required><br>
+            <input type="button"  value="Enviar para Amigo" onclick="montaSaida()"></input>
             <label for="_Email">Para: </label>
             <input id="_Email" type="email"><br>
         </form>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend id="indicacao"></legend>
+        <div id="amigo">
+
         </div>
     </fieldset>
 </div>

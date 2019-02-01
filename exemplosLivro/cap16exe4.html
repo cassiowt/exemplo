@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eventos </title>
+    <script defer type="text/javascript">
+        function Verifica(obj) {
+            alert("O valor foi alterado para " + obj.value)
+        }
+    </script>
+</head>
+<body>
+<form id=”teste”>
+    Teste:<input type="text" id=”campo” name=”campo” onchange="Verifica(this);" />
+</form>
+</body>
+</html>

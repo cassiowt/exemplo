@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eventos </title>
+    <script defer type="text/javascript">
+        var resultado = 0;
+
+        function calcular() {
+            var v1 = 10;
+            var v2 = 20;
+            resultado = v1 + v2;
+        }
+
+        function imprimir() {
+            document.write(resultado);
+        }
+    </script>
+</head>
+<body>
+<button onmouseover="calcular();" onclick="imprimir();">Teste!</button>
+</body>
+</html>

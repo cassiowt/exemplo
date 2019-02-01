@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Target CodeShop( ); </title>
+</head>
+<body>
+<p id="demo"></p>
+<button onclick="myStopFunction()">Stop time</button>
+<p id="demo1"></p>
+
+<script type="text/javascript">
+    var myVar = setInterval(function () { myTimer() }, 1000);
+
+
+    function myTimer() {
+        var d = new Date();
+        var t = d.toLocaleTimeString();
+        document.getElementById("demo").innerHTML = t;
+
+        console.log(d.getMilliseconds())
+    }
+    function myStopFunction() {
+        clearInterval(myVar);
+    }
+
+
+     setInterval(function () {
+         document.getElementById("demo1").append("Ola\n");
+     } , 3000);
+
+
+</script>
+</body>
+</html>

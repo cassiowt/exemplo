@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title> Target CodeShop( ); </title>
+    <script type="text/javascript">
+        //caminho na internet
+        document.write(location.href);
+        document.write("<br>");
+
+        //caminho no servidor
+        document.write(location.pathname);
+
+        function redireciona() {
+            window.location.href = "http://www.targettrust.com.br";
+            //ou da forma abaixo, porém, Href é mais utilizado.
+            //window.location.assign("http://www.targettrust.com.br");
+        }
+    </script>
+</head>
+<body>
+<input type="button" value="Load new document" onclick="redireciona()">
+</body>
+</html>

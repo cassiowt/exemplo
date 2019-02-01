@@ -268,3 +268,35 @@ function loadImagens() {
 
     document.getElementById("_imagens").innerHTML = texto;
 }
+
+function mudaImage() {
+
+    listaDeImagens = document.getElementsByTagName("img");
+    temporaria = listaDeImagens[0].src;
+    listaDeImagens[0].src = listaDeImagens[1].src
+    listaDeImagens[1].src = temporaria
+
+}
+
+
+function montaSaida() {
+
+    var genero = document.getElementById("_Genero").value;
+    var nome = document.getElementById("_Nome").value;
+    var ano = document.getElementById("_Data").value;
+    var email = document.getElementById("_Email").value;
+
+    var texto = "O filme escolido para o meu amigo " + email +
+     " foi o " + nome + " do genero " + genero + ", ele foi feito em " +
+     ano;
+
+    document.getElementById("indicacao").innerHTML = genero;
+    document.getElementById("amigo").innerHTML = texto;
+
+
+
+
+
+
+
+}

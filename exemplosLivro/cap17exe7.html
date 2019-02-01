@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Target CodeShop( ); </title>
+</head>
+<body onload="verifica()">
+<script type="text/javascript">
+    function verifica() {
+        if (document.cookie.indexOf('visited=trues') == -1) {
+            var fifteenDays = 1000 * 60 * 60 * 24 * 3;
+            var expires = new Date((new Date()).valueOf() + fifteenDays);
+            window.document.cookie = "visited=trues;expires=" + expires.toUTCString();
+            alert("Primeira visita! Cookie inserido...");
+        }
+        else {
+            alert("Página já acessada. ");
+        }
+    }
+</script>
+</body>
+</html>

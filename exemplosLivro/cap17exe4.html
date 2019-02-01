@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Target CodeShop( ); </title>
+    <script type="text/javascript">
+        function confirmar() {
+            var winConf = window.confirm('Deseja realmente enviar os dados?');
+            if (winConf) {
+                return (true);
+            }
+            else {
+                window.alert('Envio cancelado pelo usuário!');
+                return (false);
+            }
+        }
+    </script>
+</head>
+<body>
+<h1 id="titulo01">Formulário</h1>
+<p id="apresentacao">Este é um parágrafo de apresentação</p>
+<form id="f1" action="proc.asp" onsubmit="return confirmar();">
+    Nome:<input type="text" id="Nome" name="Nome" size="20" /><br />
+    Senha:<input type="password" id="Senha" name="Senha" size="4" /><br />
+    <input type="submit" id="Enviar" name="Enviar" value="Enviar" />
+</form>
+</body>
+</html>

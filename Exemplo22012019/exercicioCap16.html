@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eventos </title>
+    <script defer type="text/javascript">
+        function escreveTexto(obj) {
+            document.write(obj.value);
+        }
+
+        function minhafuncao() {
+            var t = document.getElementById("campo").value;
+            document.write(t);
+
+        }
+    </script>
+</head>
+<body>
+<form id=”teste”>
+    Teste:<input type="text" id="campo" name="campo"  />
+    <button onclick="minhafuncao()" value="">Click Aqui</button>
+    <div id="minhadiv">
+
+    </div>
+</form>
+</body>
+</html>

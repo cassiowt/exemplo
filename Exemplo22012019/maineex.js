@@ -6,9 +6,9 @@ function myFunction( ) {
 }
 
 function CriarParagrafo() {
-    var objNovoParagrafo = document.createElement('p');
+    var objNovoParagrafo = document.createElement('div');
     var strTexto = document.createTextNode('Informação do parágrafo.');
-    objNovoParagrafo.appendChild(strTexto);
+     objNovoParagrafo.appendChild(strTexto);
     document.getElementById('pindice').appendChild(objNovoParagrafo);
 }
 
